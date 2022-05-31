@@ -1,0 +1,45 @@
+ 
+ body{
+   background-color: gold;
+   
+}
+
+.timer{
+ display: block;
+}
+.timer_controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 23px;
+}
+button{
+  height: 40px;
+  width: 20vw;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: gray;
+  background-color: transparent
+}
+form{
+  margin-top: 200px;
+  margin-left: 355px;
+}
+input{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+}
+.display{
+  color: white;
+  margin-left: 365px;
+  margin-top: 150px;
+}
+.display__time-left{
+  font-size: 80px;
+}
+.display__end-time{
+  font-size: 30px;
+}
